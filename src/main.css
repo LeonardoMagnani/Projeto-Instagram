@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-inside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-square {
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+
+.sqr-1 {
+    height: 313px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#profile-photo {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+}
+
+#continue-profile-logged-button {
+    border: none;
+    background-color: #018dea;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.instagram-default-blue-button {
+    color: #018dea;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.sqr-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 350px;
+    padding: 10px 0px;
+}
+
+.download-app {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.download-icon {
+    height: 40px;
+    margin: 0 5px;
+}
+
+.download-app-inside {
+    display: flex;
+    flex-direction: row;
+}
+
+.link-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+    justify-content: center;
+}
+
+.link-item {
+    font-size: 13px;
+    color: #8e8e8e;
+    margin: 10px;
+}
+
+.set-language {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #8e8e8e;
+    font-size: 13px;
+    margin-top: 20px;
+    outline: none;
+}
+
+.instagram-2022 {
+    color: #8e8e8e;
+    font-size: 13px;
+}
+
+.inside-container-1 {
+    position: relative;
+}
+
+@media only screen and (max-width: 930px) {
+    .inside-container-1 {
+        display: none;
+    }
+}
+
+.insta-phone {
+    position: absolute;
+    z-index: 1;
+    top: 27px;
+    right: 58px;
+}
